@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28AB0C112CC1AA700C89F6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28AB0C012CC1AA700C89F6A /* UIKit.framework */; };
+		D28AB0C312CC1AA700C89F6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28AB0C212CC1AA700C89F6A /* Foundation.framework */; };
+		D28AB0C512CC1AA700C89F6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28AB0C412CC1AA700C89F6A /* CoreGraphics.framework */; };
+		D28AB0CA12CC1AA700C89F6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28AB0C812CC1AA700C89F6A /* InfoPlist.strings */; };
+		D28AB0CC12CC1AA700C89F6A /* StrikeThroughLabel-main.m in Sources */ = {isa = PBXBuildFile; fileRef = D28AB0CB12CC1AA700C89F6A /* StrikeThroughLabel-main.m */; };
+		D28AB0CF12CC1AA700C89F6A /* StrikeThroughLabelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D28AB0CE12CC1AA700C89F6A /* StrikeThroughLabelAppDelegate.m */; };
+		D28AB0D212CC1AA700C89F6A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28AB0D012CC1AA700C89F6A /* MainWindow.xib */; };
+		D28AB0DE12CC1ABD00C89F6A /* StrikeThroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D28AB0D912CC1ABD00C89F6A /* StrikeThroughLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D28AB0BD12CC1AA700C89F6A /* StrikeThroughLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrikeThroughLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28AB0C012CC1AA700C89F6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D28AB0C212CC1AA700C89F6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D28AB0C412CC1AA700C89F6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D28AB0C612CC1AA700C89F6A /* StrikeThroughLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrikeThroughLabel-Info.plist"; sourceTree = "<group>"; };
+		D28AB0C712CC1AA700C89F6A /* StrikeThroughLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrikeThroughLabel-Prefix.pch"; sourceTree = "<group>"; };
+		D28AB0C912CC1AA700C89F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D28AB0CB12CC1AA700C89F6A /* StrikeThroughLabel-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "StrikeThroughLabel-main.m"; sourceTree = "<group>"; };
+		D28AB0CD12CC1AA700C89F6A /* StrikeThroughLabelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrikeThroughLabelAppDelegate.h; sourceTree = "<group>"; };
+		D28AB0CE12CC1AA700C89F6A /* StrikeThroughLabelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrikeThroughLabelAppDelegate.m; sourceTree = "<group>"; };
+		D28AB0D112CC1AA700C89F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D28AB0D812CC1ABD00C89F6A /* StrikeThroughLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeThroughLabel.h; sourceTree = "<group>"; };
+		D28AB0D912CC1ABD00C89F6A /* StrikeThroughLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeThroughLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28AB0BA12CC1AA700C89F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28AB0C112CC1AA700C89F6A /* UIKit.framework in Frameworks */,
+				D28AB0C312CC1AA700C89F6A /* Foundation.framework in Frameworks */,
+				D28AB0C512CC1AA700C89F6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28AB0AE12CC1AA700C89F6A = {
+			isa = PBXGroup;
+			children = (
+				D28AB0B512CC1AA700C89F6A /* Classes */,
+				D28AB0B612CC1AA700C89F6A /* Other Sources */,
+				D28AB0B712CC1AA700C89F6A /* Resources */,
+				D28AB0B812CC1AA700C89F6A /* Frameworks */,
+				D28AB0BE12CC1AA700C89F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28AB0B512CC1AA700C89F6A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB0D812CC1ABD00C89F6A /* StrikeThroughLabel.h */,
+				D28AB0D912CC1ABD00C89F6A /* StrikeThroughLabel.m */,
+				D28AB0CD12CC1AA700C89F6A /* StrikeThroughLabelAppDelegate.h */,
+				D28AB0CE12CC1AA700C89F6A /* StrikeThroughLabelAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D28AB0B612CC1AA700C89F6A /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB0C712CC1AA700C89F6A /* StrikeThroughLabel-Prefix.pch */,
+				D28AB0CB12CC1AA700C89F6A /* StrikeThroughLabel-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D28AB0B712CC1AA700C89F6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB0C612CC1AA700C89F6A /* StrikeThroughLabel-Info.plist */,
+				D28AB0C812CC1AA700C89F6A /* InfoPlist.strings */,
+				D28AB0D012CC1AA700C89F6A /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D28AB0B812CC1AA700C89F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB0C012CC1AA700C89F6A /* UIKit.framework */,
+				D28AB0C212CC1AA700C89F6A /* Foundation.framework */,
+				D28AB0C412CC1AA700C89F6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28AB0BE12CC1AA700C89F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB0BD12CC1AA700C89F6A /* StrikeThroughLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28AB0BC12CC1AA700C89F6A /* StrikeThroughLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28AB0D512CC1AA700C89F6A /* Build configuration list for PBXNativeTarget "StrikeThroughLabel" */;
+			buildPhases = (
+				D28AB0B912CC1AA700C89F6A /* Sources */,
+				D28AB0BA12CC1AA700C89F6A /* Frameworks */,
+				D28AB0BB12CC1AA700C89F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrikeThroughLabel;
+			productName = StrikeThroughLabel;
+			productReference = D28AB0BD12CC1AA700C89F6A /* StrikeThroughLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28AB0B012CC1AA700C89F6A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D28AB0B312CC1AA700C89F6A /* Build configuration list for PBXProject "StrikeThroughLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D28AB0AE12CC1AA700C89F6A;
+			productRefGroup = D28AB0BE12CC1AA700C89F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28AB0BC12CC1AA700C89F6A /* StrikeThroughLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28AB0BB12CC1AA700C89F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28AB0CA12CC1AA700C89F6A /* InfoPlist.strings in Resources */,
+				D28AB0D212CC1AA700C89F6A /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28AB0B912CC1AA700C89F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28AB0CC12CC1AA700C89F6A /* StrikeThroughLabel-main.m in Sources */,
+				D28AB0CF12CC1AA700C89F6A /* StrikeThroughLabelAppDelegate.m in Sources */,
+				D28AB0DE12CC1ABD00C89F6A /* StrikeThroughLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D28AB0C812CC1AA700C89F6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28AB0C912CC1AA700C89F6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D28AB0D012CC1AA700C89F6A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28AB0D112CC1AA700C89F6A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28AB0D312CC1AA700C89F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D28AB0D412CC1AA700C89F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D28AB0D612CC1AA700C89F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrikeThroughLabel-Prefix.pch";
+				INFOPLIST_FILE = "StrikeThroughLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D28AB0D712CC1AA700C89F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrikeThroughLabel-Prefix.pch";
+				INFOPLIST_FILE = "StrikeThroughLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28AB0B312CC1AA700C89F6A /* Build configuration list for PBXProject "StrikeThroughLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28AB0D312CC1AA700C89F6A /* Debug */,
+				D28AB0D412CC1AA700C89F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28AB0D512CC1AA700C89F6A /* Build configuration list for PBXNativeTarget "StrikeThroughLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28AB0D612CC1AA700C89F6A /* Debug */,
+				D28AB0D712CC1AA700C89F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28AB0B012CC1AA700C89F6A /* Project object */;
+}

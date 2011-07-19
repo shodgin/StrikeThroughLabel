@@ -810,7 +810,7 @@
 			</dict>
 		</dict>
 		<string>file://localhost/Users/scott/Source/Library/StrikeThroughLabel/StrikeThroughLabel.xcodeproj/</string>
-		<real>332801804.49343097</real>
+		<real>332801846.487436</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2289,7 +2289,7 @@
 				<integer>213</integer>
 			</dict>
 		</dict>
-		<real>332801804.49026</real>
+		<real>332801846.48418403</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2419,8 +2419,8 @@
 		<string>PrimaryDocumentTimestamp</string>
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>{0, 0}</string>
-		<real>332801804.49060303</real>
-		<string>{0, 1146}</string>
+		<real>332801846.48452002</real>
+		<string>{15850, 1164}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
